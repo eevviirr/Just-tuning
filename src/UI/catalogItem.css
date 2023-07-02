@@ -1,0 +1,32 @@
+.catalog--item__container{
+    width: 360px;
+    height: 415px;  
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.catalog--item__photo{
+    width: 100%;
+    height: 233px;
+    background-image: url(image/png/McLaren.png);
+}
+.catalog--item__information{
+    padding: 30px 20px;
+}
+.date{
+    color: #B7B8BC;
+    font-size: 10px;
+    font-weight: 800;
+}
+.service{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #B7B8BC;
+    font-size: 18px;
+    font-weight: 800;
+}
+.catalog--item__descr{
+    color: #131926;
+    font-size: 25px;
+    font-weight: 800;
+}

@@ -1,0 +1,22 @@
+.order--button{
+    border: none;
+    outline: none;
+
+    background: #131926;
+    border-radius: 40px;
+    color: white;
+    padding: 22px 44px;
+    cursor: pointer;
+
+    color: #FAFAFA;
+    font-size: 18px;
+    font-weight: 800;
+    transition: 0s;
+}
+.order--button:hover{
+    background: #C12023;
+}
+.order--button:active{
+    background: #DF2528;
+
+}
