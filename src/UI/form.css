@@ -1,38 +1,37 @@
-.input{
-    width: 360px;
-    height: 50px;
-    border: none;
-    border-bottom: 2px solid #ffffff;
-    padding-right: 3px;
+.input {
+  width: 360px;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  padding-right: 3px;
 
-    color: #ffffff;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    outline: none;
-    background: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  outline: none;
+  background: none;
 }
-.submit--button{
-    border: none;
-    outline: none;
+.submit--button {
+  border: none;
+  outline: none;
 
-    background: #C12023;
-    border-radius: 40px;
-    padding: 22px 44px;
-    cursor: pointer;
+  background: #c12023;
+  border-radius: 40px;
+  padding: 22px 44px;
+  cursor: pointer;
 
-    color: #FAFAFA;
-    font-size: 18px;
-    font-weight: 800;
-    transition: 0s;
-
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 800;
+  transition: 0s;
 }
-.submit--button:active{
-    background: #DF2528;
+.submit--button:active {
+  background: #df2528;
 }
-.form{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
 }

@@ -1,16 +1,16 @@
-.menu{
-    display: flex;
-    gap: 80px;
-    flex-wrap: wrap;
+.menu {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
 }
-.menu__item{
-    color: #131926;
-    font-size: 18px;
-    font-weight: 800;
+.menu__item {
+  color: #131926;
+  font-size: 18px;
+  font-weight: 800;
 }
 
-.footer__menu{
-    width: 70px;
-    color: white;
-    gap: 30px;
+.footer__menu {
+  width: 70px;
+  color: white;
+  gap: 30px;
 }

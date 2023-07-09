@@ -1,9 +1,9 @@
-.header__container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo--just-tuning{
-    width: 100px;
-    height: 100%;
+.logo--just-tuning {
+  width: 100px;
+  height: 100%;
 }

@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
-import Home from "./pages/home"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contacts from "./pages/contacts";
+import PageCard from "./pages/pageCard";
 import Header from "./components/header";
-import './UI/res.css';
-
+import "./UI/res.css";
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Home />
-    </div>
-  );
+    const [value, setValue] = useState("");
+    // console.log(value);
+    return (
+        <div className="wrapper">
+                <Header value={value} setValue={setValue} />
+            <div className="pages">
+                <Routes>
+                    <Route path="/" element={<Home value={value} setValue={setValue} />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contacts" element={<Contacts />} />
+                    <Route
+                        path="/pagecard"
+                        element={<PageCard value="123" />}
+                    />
+                </Routes>
+            </div>
+        </div>
+    );
 }
 
 export default App;
